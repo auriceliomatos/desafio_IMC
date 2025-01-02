@@ -1,0 +1,67 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 0 500px;
+
+}
+
+.form {
+  margin: 20px auto;
+  max-width: 300px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.resultado {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: 2px solid;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  width: fit-content;
+}
+
+.abaixo-peso {
+  border-color: #4caf50;
+  color: #4caf50;
+}
+
+.peso-normal {
+  border-color: #4caf50;
+  color: #4caf50;
+}
+
+.sobrepeso {
+  border-color: #ff9800;
+  color: #ff9800;
+}
+
+.obesidade {
+  border-color: #f44336;
+  color: #f44336;
+}
